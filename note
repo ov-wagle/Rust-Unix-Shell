@@ -1,0 +1,16 @@
+source $HOME/.cargo/env #Import the environment config for rust
+
+Step 1: Update the shell/bash script according to the platform
+//Use this command for linux
+sudo apt-get install dos2unix
+
+//Parallel command for macOS
+brew install dos2unix
+
+Step 2: Run the shell script to create the sample test folders
+dos2unix init-fs.sh
+
+Step 3: Run the docker image using the following commands
+docker build -t rust-project:1.0 .
+docker run -it --privileged rust-project:1.0
+cargo run

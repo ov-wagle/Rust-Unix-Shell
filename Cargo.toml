@@ -1,0 +1,18 @@
+[package]
+name = "rust-unix-shell"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+json="0.12.4"
+colored = "2.0.0"
+chrono = "0.4"
+permissions = "0.3.0"
+is_executable = "1.0.1"
+libc = "0.2.122"
+termion="1.5.6"
+pbr = "1.0.4"
+fs-utils = "1.1.4"
+rustc-serialize = "0.3.24"

@@ -1,0 +1,7 @@
+{
+    "listDir -a": "dummy-files",
+    "listDir -l": "src",
+    "listDir -tree": "",
+    "listDir -color": "test1",
+    "cmd_history": ""  
+}
